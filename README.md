@@ -29,6 +29,7 @@ Indítási leírás:
 
 Használat:   
         A konténer indulása után több végponton elérhető a rendszer:
+        
         http://127.0.0.1:9090 API végpontok
         
         http://127.0.0.1:5102 MlFlow UI
