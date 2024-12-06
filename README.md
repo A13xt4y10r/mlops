@@ -1,4 +1,4 @@
-Ebben a GitHub projektben az MLOps (Machine Learning Operations) területét próbálom kicsit felderíteni. A bemutatott eszközök segítik a gépi tanulási modellek hatékony és megbízható telepítését és üzemeltetését:
+Ebben a GitHub projektben az MLOps (Machine Learning Operations) területét próbálom kicsit felderíteni. A bemutatott eszközök segítik a gépi tanulási modellek hatékony és megbízható telepítését és üzemeltetését.
 
 Főbb elemek
 
