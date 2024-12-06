@@ -21,6 +21,8 @@ Adatkezelés: Az adatok verziókezelése és nyomon követése, hogy biztosítsu
 Modellmonitorozás: A telepített modellek teljesítményének folyamatos figyelemmel kísérése és szükség esetén újraképzésük.
 Ez a projekt hasznos lehet mindazok számára, akik szeretnék megérteni és alkalmazni az MLOps legjobb gyakorlatait a saját gépi tanulási projektjeikben.
 
+Az alap ML model a https://www.kaggle.com/datasets/rajattomar132/payment-date-dataset alapján készült, szintén bemutató céllal, a kiinduló jupyter notebook Tetovalo munkája, THX. 
+
 Indítási leírás:
         A könyvárban állva az image build:
         docker build -t mlopsbeadando .
@@ -38,7 +40,7 @@ Használat:
         
         http://127.0.0.1:8080 USername: admin Password: admin  Airflow UI
 
-A tanítási végponthoz a mappa /data/payment_database.csv szükséges, a predict végpontnál pedig kitöltésre került egy mintaadat, amivel egyszerűen hívható a predikciós folyamat, de stermésuetesen saját adatokkal is kitölthető.
+A tanítási végponthoz a /data/payment_database.csv szükséges, a predict végpontnál pedig kitöltésre került egy mintaadat, amivel egyszerűen hívható a predikciós folyamat, de természetesen saját adatokkal is kitölthető.
 
 A Streamlit UI esetén a válassz egy csv fájlt: itt tesztdatként a mappa /data/adat.csv választandó, referencia csv-ként pedig ugyanott a ref.csv fájl
         
