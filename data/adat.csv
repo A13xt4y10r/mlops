@@ -1,0 +1,2 @@
+business_code,cust_number,name_customer,clear_date,buisness_year,doc_id,posting_date,document_create_date,document_create_date.1,due_in_date,invoice_currency,document_type,posting_id,area_business,total_open_amount,baseline_create_date,cust_payment_terms,invoice_id,isOpen
+U001,200769623,WAL-MAR corp,2020-02-11,2020,1930438491,2020-01-26,20200125,20200126,20200210,USD,RV,1,,54273.28,20200126,NAH4,1930438491,0
