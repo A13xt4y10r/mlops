@@ -21,7 +21,7 @@ Adatkezelés: Az adatok verziókezelése és nyomon követése, hogy biztosítsu
 Modellmonitorozás: A telepített modellek teljesítményének folyamatos figyelemmel kísérése és szükség esetén újraképzésük.
 Ez a projekt hasznos lehet mindazok számára, akik szeretnék megérteni és alkalmazni az MLOps legjobb gyakorlatait a saját gépi tanulási projektjeikben.
 
-Konténerizálás: A projekt egy docker image-be került összecsomagolásra, ez szintén csak egy példaprojekt megoldás, hiszen így pl. ömlesztett logokat kapunk, valamelyik részfeladat hibája esetén a teljes folyamat leállhat. A további fejlesztési iránynak lehetséges a microservice-kre osztás, és, amennyiben docker környezetnél maradunk, akkor docker-compose használata.
+Konténerizálás: A projekt egy docker image-be került összecsomagolásra, ez szintén csak egy példaprojekt megoldás, hiszen így pl. ömlesztett logokat kapunk, valamelyik részfeladat hibája esetén a teljes folyamat leállhat. A további fejlesztési iránynak lehetséges a microservice-kre osztás, és, amennyiben docker környezetnél maradunk, akkor docker-compose használata. A kontémerizációs folyamat is optimalizálható, jelen állapotban jelentős erőforrás szükséges az üzemeltetéshez, ez a konténer indítási parancsában is látható a nagy memória hozzárendelésben.
 
 Az alap ML model a https://www.kaggle.com/datasets/rajattomar132/payment-date-dataset alapján készült, szintén bemutató céllal, a kiinduló jupyter notebook Tetovalo munkája, THX. 
 
