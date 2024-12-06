@@ -1,3 +1,26 @@
+Ebben a GitHub projektben az MLOps (Machine Learning Operations) területét próbálom kicsit felderíteni. A bemutatott eszközök segítik a gépi tanulási modellek hatékony és megbízható telepítését és üzemeltetését:
+
+Főbb elemek
+
+Modellképzés:
+
+Különböző algoritmusok és kódok találhatók a gépi tanulási modellek képzéséhez.
+A projekt bemutatja, hogyan lehet a modelleket hatékonyan és pontosan betanítani különböző adatkészleteken.
+Modelltelepítés:
+
+Eszközök és folyamatok a modellek telepítéséhez és üzemeltetéséhez.
+Példák arra, hogyan lehet a modelleket különböző környezetekben (pl. felhőben vagy helyi szervereken) futtatni.
+Infrastruktúra kódolása:
+
+Az infrastruktúra automatizálása és kezelése kód segítségével.
+Példák az infrastruktúra kódolására, beleértve a számítási erőforrások és az adattárolók beállítását.
+Részletesebb tartalom
+
+CI/CD folyamatok: A projekt bemutatja, hogyan lehet folyamatos integrációs és szállítási (CI/CD) folyamatokat bevezetni a gépi tanulási modellekhez. Ez magában foglalja a modellképzés, -értékelés, -regisztráció és -telepítés automatizálását.
+Adatkezelés: Az adatok verziókezelése és nyomon követése, hogy biztosítsuk a modellek reprodukálhatóságát és auditálhatóságát.
+Modellmonitorozás: A telepített modellek teljesítményének folyamatos figyelemmel kísérése és szükség esetén újraképzésük.
+Ez a projekt hasznos lehet mindazok számára, akik szeretnék megérteni és alkalmazni az MLOps legjobb gyakorlatait a saját gépi tanulási projektjeikben.
+
 Indítási leírás:
         A könyvárban állva az image build:
         docker build -t mlopsbeadando .
