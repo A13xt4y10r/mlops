@@ -27,9 +27,9 @@ Az alap ML model a https://www.kaggle.com/datasets/rajattomar132/payment-date-da
 
 Indítási leírás:
         A könyvárban állva az image build:
-        "docker build -t mlopsbeadando ."
+        "docker build -t mlops ."
         A konténer indítása a következő paranccsal lehetséges:
-        "docker run --memory=4g --memory-swap=4g -it --rm -p 9090:1080 -p 5102:5102 -p 8501:8501 -p 8080:8080 -e MLFLOW_TRACKING_URI="file:/app/mlruns" mlopsbeadando"
+        "docker run --memory=4g --memory-swap=4g -it --rm -p 9090:1080 -p 5102:5102 -p 8501:8501 -p 8080:8080 -e MLFLOW_TRACKING_URI="file:/app/mlruns" mlops"
 
 Használat:   
         A konténer indulása után több végponton elérhető a rendszer:
